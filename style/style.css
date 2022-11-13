@@ -1,3 +1,24 @@
 body {
-    
+    margin:  0;
+}
+
+.container {
+    margin: 0px 166px;
+} 
+
+.header {
+    background-image: url(/Resr/style/images/phon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 13px;
+    height: 13px;
+    left: 846px;
+    top: 76px;
 }
