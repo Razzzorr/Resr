@@ -1,5 +1,6 @@
 body {
     margin:  0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -13,12 +14,56 @@ body {
     background-size: cover;
 }
 
-.header-line {
+.header-logo {
     padding-top: 50px;
     display: flex;
     align-items: center;
-    width: 13px;
-    height: 13px;
-    left: 846px;
-    top: 76px;
+    justify-content: space-around;
+    
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.card {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+    position: relative;
+}
+
+.card-img {
+    position: absolute;
+    top: 18px;
+    right: 8px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.phone-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400px;
+
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button { 
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+
 }
