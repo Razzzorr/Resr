@@ -143,24 +143,32 @@ body {
     color: rgb(255, 0, 0);
 }
 
-
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .card2 {
-    background-color: aqua;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width:33%;
 }
 
 .card2-image {
     display: flex;
     justify-content: center;
+    
 }
 
 .card2-title {
     display: flex;
     justify-content: center;
+    
 }
 
 .card2-decs {
     display: flex;
     justify-content: center;
+    
 }
 
