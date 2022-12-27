@@ -71,6 +71,10 @@ body {
     align-items: center;
 }
 
+.phone-number {
+    margin-left: 6px;
+}
+
 .button1 { 
     background-color: #FF7400;
     text-decoration: none;
@@ -145,30 +149,249 @@ body {
 
 .cards-holder {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
 .card2 {
     box-shadow: 10px 10px 40px 20px #0000001A;
-    width:33%;
+    width:349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -78px;
+    text-align: center;
+    padding: 8px 10px;
 }
 
 .card2-image {
     display: flex;
     justify-content: center;
-    
+    padding-top: 31px;    
 }
 
 .card2-title {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
     
 }
 
-.card2-decs {
+.card2-title span {
+    color: #BC9060;
+    margin-left: 5px;
+}
+
+.card2-desc {
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #656363;
+
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-holder {
     display: flex;
+   
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #BC9060;
+    margin-left: 8px;
+}
+
+.history-desc {
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
     justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 25px;
+}   
+
+.number-item {
+    margin-right: 60px;
+    font-size: 32px;
+    color: #BC9060;
     
 }
+
+.number-item span {
+    display: block;
+    color: black;
+    font-size: 23px;
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 999;
+    top: 25px;
+    left: 40px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    left: 240px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    top: 220px;
+    left: 360px;
+}
+
+.left-title {
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: #D67E34;
+    margin-bottom: 20px;
+}
+
+.black-block {
+    margin-top: 255px;
+    background-image: url(/Resr/style/images/back2.png);
+    padding: 80px 0px;
+}
+.left-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.burgers {
+    margin-left: 20px;
+}
+
+.food {
+    display: flex;
+}
+
+.burger-text {
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+.menu {
+    background-image: url(/Resr/style/images/bar-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 152px;
+}
+
+.menu-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 98px;
+    padding-bottom: 138px;  
+}
+
+.menu-item {
+    background-color: #fff;
+    text-align: center;
+    width: 30%;
+    padding-top: 80px;
+}
+
+.burger-i-title {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 16px;
+}
+
+.burger-i-subtitle {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.burger-price420 {
+    font-size: ;
+}
+
+.burger-img {
+    
+}
+
+.burger-price {
+
+}
+
+.burger-btn {
+    background-color: #D67E34;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 14px 68px;
+    transition: 0.4s;
+}
+
+.burger-btn:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
 
